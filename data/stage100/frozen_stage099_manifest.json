@@ -1,0 +1,21 @@
+{
+  "input": "outputs_stage099_chariot_soil/chariot_soil_screen.csv",
+  "input_sha256": "05ecb2af255b86bd5db2a70b1c8f816673394b6a4389deadb6c2f62eed8f6031",
+  "stage099_status": "READ_ONLY",
+  "backbones_m": [
+    60.0,
+    45.0,
+    30.0
+  ],
+  "columns": [
+    5,
+    4,
+    3
+  ],
+  "dynamic_envelope_m": 3.0,
+  "turn_numeric_status": "geometry_sensitivity_not_ancient_calibration",
+  "recognition_clock": "04:15",
+  "first_rewet_cue": "05:40",
+  "closure_clock": "06:40",
+  "casualties_simulated": false
+}

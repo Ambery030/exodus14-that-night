@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Exodus–Ballah: First-Version Physical Sandbox"
+version: 0.1.0
+date-released: 2026-09-05
+message: "Please cite the repository commit and the specific Stage/report used."
+type: software
+authors:
+  - name: "Exodus–Ballah research collaboration"
+keywords:
+  - shallow-water
+  - lagoon
+  - Exodus
+  - Ballah
+  - reproducible-research
+abstract: >-
+  An archived, explicitly qualified physical sandbox for a wind–tide opening,
+  progressive rewetting, and frozen chariot/soil pursuit screen. It is not a
+  Late Bronze Age reconstruction or a mortality model.

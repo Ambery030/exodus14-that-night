@@ -1,0 +1,18 @@
+{
+  "hydro_path": "outputs_stage098_refine120/timeseries_phase_w19.0_low04.5_stop04.0_120x96.csv",
+  "hydro_sha256": "050c0abccddf3db2c7997dc79c40d4b7d1cd6ac7253460909459904c0d85d5f3",
+  "summary_path": "outputs_stage098_refine120/screen_summary_120x96.csv",
+  "summary_sha256": "0b5b7977240fc73166cb1b1b4d120505e46a319eae019ad7ab5a6026f9fc1276",
+  "world_status": "READ_ONLY_STAGE098",
+  "chosen_chariots": 600,
+  "crew_per_chariot": 2,
+  "horses_per_chariot": 2,
+  "route_length_m": 7000.0,
+  "backbone_widths_m": [
+    60.0,
+    45.0,
+    30.0
+  ],
+  "soil_calibration_status": "sensitivity_not_Ballah_calibration",
+  "fatality_model": false
+}

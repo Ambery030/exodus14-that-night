@@ -1,0 +1,141 @@
+{
+  "soils": [
+    {
+      "name": "firm_sand_control",
+      "base_support_kpa": [
+        520.0,
+        480.0,
+        440.0
+      ],
+      "remould_fraction": 0.18,
+      "pass_scale": 120.0,
+      "rewet_sensitivity_per_m": 0.8,
+      "soft_patch_fraction": 0.0,
+      "soft_patch_support_kpa": 120.0
+    },
+    {
+      "name": "marginal_wet_sand",
+      "base_support_kpa": [
+        390.0,
+        350.0,
+        320.0
+      ],
+      "remould_fraction": 0.48,
+      "pass_scale": 55.0,
+      "rewet_sensitivity_per_m": 2.0,
+      "soft_patch_fraction": 0.0,
+      "soft_patch_support_kpa": 120.0
+    },
+    {
+      "name": "patchy_sand_over_soft",
+      "base_support_kpa": [
+        420.0,
+        360.0,
+        315.0
+      ],
+      "remould_fraction": 0.58,
+      "pass_scale": 42.0,
+      "rewet_sensitivity_per_m": 2.8,
+      "soft_patch_fraction": 0.08,
+      "soft_patch_support_kpa": 155.0
+    }
+  ],
+  "traffic": [
+    {
+      "name": "central_dense",
+      "entry_clock_h": 4.0,
+      "base_speed_m_s": 1.8,
+      "dynamic_envelope_m": 3.0,
+      "column_count": 12,
+      "entry_headway_s": 8.0,
+      "longitudinal_pitch_m": 10.0,
+      "team_length_m": 6.0,
+      "wheel_demand_kpa": 220.0,
+      "hoof_demand_kpa": 300.0,
+      "recognition_delay_min": 6.0,
+      "turn_delay_min": 3.0,
+      "turn_success_fraction": 0.55,
+      "route_choice_error_fraction": 0.0
+    },
+    {
+      "name": "central_dense_high_turnability",
+      "entry_clock_h": 4.0,
+      "base_speed_m_s": 1.8,
+      "dynamic_envelope_m": 3.0,
+      "column_count": 12,
+      "entry_headway_s": 8.0,
+      "longitudinal_pitch_m": 10.0,
+      "team_length_m": 6.0,
+      "wheel_demand_kpa": 220.0,
+      "hoof_demand_kpa": 300.0,
+      "recognition_delay_min": 6.0,
+      "turn_delay_min": 3.0,
+      "turn_success_fraction": 0.9,
+      "route_choice_error_fraction": 0.0
+    },
+    {
+      "name": "central_dense_low_turnability",
+      "entry_clock_h": 4.0,
+      "base_speed_m_s": 1.8,
+      "dynamic_envelope_m": 3.0,
+      "column_count": 12,
+      "entry_headway_s": 8.0,
+      "longitudinal_pitch_m": 10.0,
+      "team_length_m": 6.0,
+      "wheel_demand_kpa": 220.0,
+      "hoof_demand_kpa": 300.0,
+      "recognition_delay_min": 6.0,
+      "turn_delay_min": 3.0,
+      "turn_success_fraction": 0.2,
+      "route_choice_error_fraction": 0.0
+    },
+    {
+      "name": "optimistic_spacing",
+      "entry_clock_h": 3.75,
+      "base_speed_m_s": 2.2,
+      "dynamic_envelope_m": 2.5,
+      "column_count": 16,
+      "entry_headway_s": 10.0,
+      "longitudinal_pitch_m": 14.0,
+      "team_length_m": 6.0,
+      "wheel_demand_kpa": 190.0,
+      "hoof_demand_kpa": 270.0,
+      "recognition_delay_min": 4.0,
+      "turn_delay_min": 2.0,
+      "turn_success_fraction": 0.8,
+      "route_choice_error_fraction": 0.0
+    },
+    {
+      "name": "compressed_disorder",
+      "entry_clock_h": 4.25,
+      "base_speed_m_s": 1.5,
+      "dynamic_envelope_m": 4.0,
+      "column_count": 9,
+      "entry_headway_s": 6.0,
+      "longitudinal_pitch_m": 7.0,
+      "team_length_m": 6.0,
+      "wheel_demand_kpa": 250.0,
+      "hoof_demand_kpa": 340.0,
+      "recognition_delay_min": 8.0,
+      "turn_delay_min": 5.0,
+      "turn_success_fraction": 0.3,
+      "route_choice_error_fraction": 0.0
+    },
+    {
+      "name": "soft_edge_error_5pct",
+      "entry_clock_h": 4.0,
+      "base_speed_m_s": 1.8,
+      "dynamic_envelope_m": 3.0,
+      "column_count": 12,
+      "entry_headway_s": 8.0,
+      "longitudinal_pitch_m": 10.0,
+      "team_length_m": 6.0,
+      "wheel_demand_kpa": 220.0,
+      "hoof_demand_kpa": 300.0,
+      "recognition_delay_min": 6.0,
+      "turn_delay_min": 3.0,
+      "turn_success_fraction": 0.55,
+      "route_choice_error_fraction": 0.05
+    }
+  ]
+}

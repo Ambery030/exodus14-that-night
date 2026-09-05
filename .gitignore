@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+src/outputs_stage100_retreat_geometry/
+outputs_reproduced_*/
+.pytest_cache/

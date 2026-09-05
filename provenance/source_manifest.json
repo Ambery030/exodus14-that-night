@@ -1,0 +1,71 @@
+{
+  "package": "exodus-ballah-first-version",
+  "scope": "Stage 0.98 opening/timing plus Stage 0.99-1.00 frozen pursuit screen",
+  "created_for": "reproducible archival handoff",
+  "archival_reports": [
+    {
+      "path": "reports/RESULTS_STAGE096E_CORRECTED_EAST_WIND.md",
+      "original_name": "RESULTS_STAGE096E_CORRECTED_EAST_WIND.md",
+      "library_file_id": null,
+      "role": "corrected orientation context",
+      "status": "included from recovered workspace"
+    },
+    {
+      "path": "reports/RESULTS_STAGE096_MAP_INFORMED_LOCK.md",
+      "original_name": "RESULTS_STAGE096_MAP_INFORMED_LOCK.md",
+      "library_file_id": null,
+      "role": "geographic-axis and synthetic-geometry lock",
+      "status": "included from recovered workspace"
+    },
+    {
+      "path": "reports/RESULTS_STAGE096_ORIENTATION_AUDIT.md",
+      "original_name": "RESULTS_STAGE096_ORIENTATION_AUDIT.md",
+      "library_file_id": null,
+      "role": "supersession and direction audit",
+      "status": "included from recovered workspace"
+    },
+    {
+      "path": "reports/STAGE097_LOCKED_TIMELINE_CHECKPOINT.md",
+      "original_name": "STAGE097_LOCKED_TIMELINE_CHECKPOINT.md",
+      "library_file_id": null,
+      "role": "pre-0.98 timeline lock",
+      "status": "included from recovered workspace"
+    },
+    {
+      "path": "reports/STAGE098_WIND_TIDE_RELEASE_CHECKPOINT.md",
+      "original_name": "STAGE098_WIND_TIDE_RELEASE_CHECKPOINT.md",
+      "library_file_id": "libfile_239d96eb924c819193c1e9c758be3365",
+      "role": "primary opening/timing report",
+      "status": "read and archived"
+    },
+    {
+      "path": "reports/RESULTS_STAGE099_CHARIOT_SOIL_PURSUIT.md",
+      "original_name": "RESULTS_STAGE099_CHARIOT_SOIL_PURSUIT.md",
+      "library_file_id": "libfile_2e498f4f915081918fa9c5a95a0cc614",
+      "role": "frozen-hydro pursuit report",
+      "status": "read and archived"
+    },
+    {
+      "path": "reports/RESULTS_STAGE100_RETREAT_GEOMETRY.md",
+      "original_name": "RESULTS_STAGE100_RETREAT_GEOMETRY.md",
+      "library_file_id": "libfile_4563bce1d36c8191af1dd4734f119fa8",
+      "role": "geometry-derived retreat bound",
+      "status": "read and archived"
+    }
+  ],
+  "primary_scripts": [
+    {"path": "src/stage098_wind_tide_release.py", "original_name": "stage098_wind_tide_release.py", "status": "recovered workspace source"},
+    {"path": "src/stage099_chariot_soil_pursuit.py", "original_name": "stage099_chariot_soil_pursuit.py", "status": "recovered workspace source"},
+    {"path": "src/stage100_retreat_geometry.py", "original_name": "stage100_retreat_geometry.py", "status": "recovered workspace source"}
+  ],
+  "raw_outputs": [
+    {"path": "data/stage098/", "role": "selected 80x64, 120x96, 160x128 summaries and timeseries"},
+    {"path": "data/stage099/", "role": "chariot/soil screen and frozen parameter manifests"},
+    {"path": "data/stage100/", "role": "vehicle turn and crew abandonment bounds"}
+  ],
+  "interpretive_policy": {
+    "numbers": "must retain stage, file, and evidence tag",
+    "hypotheses": "must not be presented as solver outputs",
+    "later_branches": "must not be merged into this first-version benchmark"
+  }
+}

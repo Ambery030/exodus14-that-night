@@ -1,0 +1,24 @@
+{
+  "scope": "idealized wind-tide storage/release mechanism screen; no ancient reconstruction",
+  "geometry": "MI_EAST_RELIEF_V1 with three resolved synthetic backbones",
+  "grid": {
+    "nx": 160,
+    "ny": 128,
+    "length_x_m": 60000.0,
+    "width_y_m": 20000.0
+  },
+  "fixed": {
+    "mean_stage_m": -0.2,
+    "inlet_x_fraction": 0.5,
+    "tide_amplitude_m": 0.15,
+    "wind_direction": "east-to-west",
+    "wind_peak_local": "17:00-22:00",
+    "wind_decay_local": "22:00-01:00 to 12 m/s tail"
+  },
+  "alarm_proxy": {
+    "noticeable": "at least 25% width loss, 0.10 m/s p95 return speed, or 0.05 cm/min route-depth rise",
+    "urgent": "at least one complete lane lost and 50% width loss plus visible current, depth rise, or <=1.5 h route-loss clock",
+    "acute": "local maximum h*u >= 0.70 m2/s; retained only as instability screen",
+    "warning": "operational proxy, not a psychological or fatality model"
+  }
+}

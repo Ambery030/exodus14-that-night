@@ -1,0 +1,9 @@
+decision,foot_speed_m_s,distance_reachable_before_rewet_m,distance_reachable_before_closure_m,first_failure_at_1km_can_reach_origin_before_rewet,first_failure_at_1km_can_reach_origin_before_closure,entire_7km_route_recoverable_before_closure
+dismount_at_recognition_0415,0.5,2550.0000000000005,4350.000000000001,True,True,False
+dismount_at_recognition_0415,0.8,4080.000000000001,6960.000000000002,True,True,False
+dismount_at_recognition_0415,1.0,5100.000000000001,8700.000000000002,True,True,True
+dismount_at_recognition_0415,1.3,6630.000000000002,11310.000000000004,True,True,True
+dismount_at_first_rewet_cue_0540,0.5,0.0,1800.0,False,True,False
+dismount_at_first_rewet_cue_0540,0.8,0.0,2880.0,False,True,False
+dismount_at_first_rewet_cue_0540,1.0,0.0,3600.0,False,True,False
+dismount_at_first_rewet_cue_0540,1.3,0.0,4680.0,False,True,False
