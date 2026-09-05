@@ -42,7 +42,7 @@
 
 ## Stage 0.99：frozen-hydro pursuit screen
 
-所有 row 都從 600 entrants 開始。`returned_to_origin` 是模型中回到出發岸的車輛數；`trapped_at_hydro_closure` 是在 archived closure clock 仍困在路網內的車輛數；兩者不是死亡數。
+所有 row 都從 600 entrants 開始。`returned_to_origin` 是模型中回到出發岸的車輛數；`trapped_at_hydro_closure` 是在 archived closure clock 仍困在路網內的車輛數；`immobilized` 是其中的子集；這些都不是死亡數。
 
 ### 中央隊形與兩個主要 soil family
 
@@ -98,4 +98,3 @@ Stage 0.99 first failure 約在起點 1 km。若 04:15 認識撤退：
 | 戰馬碰撞／推擠是否已證明致命？ | 否 |
 | 是否模擬溺水或傷亡？ | 否 |
 | 是否達到 Exodus 14:28 的 no-remnant？ | 否 |
-
